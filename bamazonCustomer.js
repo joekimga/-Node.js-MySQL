@@ -8,3 +8,13 @@ var connection = mysql.createConnection({
 	database: "bamazon"
 });
 
+
+connection.connect(function(error) {
+	if(error) {
+		console.log("Error connecting to Database");
+		return;
+	}
+	console.log("Connection Established");
+
+	
+})

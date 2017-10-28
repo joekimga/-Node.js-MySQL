@@ -15,15 +15,15 @@ CREATE TABLE products (
 
 SELECT * FROM products;
 
-INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ();
-INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ();
-INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ();
-INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ();
-INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ();
-INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ();
-INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ();
-INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ();
-INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ();
-INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ();
+INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("","", , );
+INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("","", , );
+INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("","", , );
+INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("","", , );
+INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("","", , );
+INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("","", , );
+INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("","", , );
+INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("","", , );
+INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("","", , );
+INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("","", , );
 
 SELECT * FROM products;
