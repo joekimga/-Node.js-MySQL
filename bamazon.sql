@@ -23,8 +23,8 @@ INSERT INTO Products (product_name, department_name, price, stock_quantity) VALU
 -- INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("Extreme Matters Heavy Duty Pan Organizer - Bottom Tier 1 Inch Taller for Larger Pans - No Assembly Required - Black","Home & Kitchen", 24.97, 1);
 -- INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("The Ringer - The Original Stainless Steel Cast Iron Cleaner, Patented XL 8x6 inch Design","Home & Kitchen", 14.99, 1);
 -- INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("FlexiSpot Standing Desk - 47" wide platform Stand Up Desk Riser with Quick Release Keyboard Tray (L-Size-Black)","Office Products", 349.99, 1);
--- INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("","", , );
--- INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("","", , );
--- INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("","", , );
+-- INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("Pro MERN Stack: Full Stack Web App Development with Mongo, Express, React, and Node 1st ed. Edition","Books", 42.74, 7);
+-- INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("Learning React 1st Edition","Books", 31.32, 39);
+-- INSERT INTO Products (ProductName, DepartmentName, Price, StockQuantity) VALUES ("Angular JS for Beginners: Your Guide to Easily Learn Angular JS In 7 Days Paperback – August 24, 2017","Books", 17.05, 1);
 
 SELECT * FROM products;
