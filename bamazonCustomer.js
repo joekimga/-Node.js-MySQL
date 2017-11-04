@@ -46,6 +46,25 @@ var query = function() {
 } 
 
 
+var inventory = function(id, quantity) {
+	connection.querry("SELECT * FROM products WHERE ItemID = " id, function(error, result) {
+		if (error) throw error;
+
+		var total = result[0].Price * quantity;
+
+		var inventory = result[0].StockQuantity - quantity;
+
+		if (inventory < 0) {
+			console.log("We do not have any in stock.");
+		} else {
+			console.log("You bought " + quantity + "" + result[0].products);
+		}
+	});
+}
+
+startBamazon();
+
+
 // npm.mysql
 // connection.query('querry 1 + 1 AS solution', function (error, results, fields) {
 //   if (error) throw error;
@@ -66,4 +85,3 @@ var query = function() {
 //inquirer to prompt user what to do
 
 
-}
